@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    color: rgb(97, 30, 165);
+    background-color: white;
+    font-family: 'Lobster', cursive;
+}
+#header-nav {
+    background-color: rgb(184, 217, 250);
+    border-radius: 0;
+    border-bottom: 10px;
+    border-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand, a {
+    padding:5px;
+    text-decoration-line: none;
+}
+.navbar-brand h1 {
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px lightslategray;
+    
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+#nav-list > li {
+    text-align: center;
+    padding: 10px;
+    
+}
+#nav-list > li > a {
+    color: rgb(97, 30, 165);
+    font-weight: 100;
+    font-size: 25px;
+    text-shadow: 0px 0px 1px white;
+    
+}
+
+#nav-list a:hover {
+    background:rgb(28, 38, 184);
+    color:white;
+}
+.nav-item:hover, .nav-item:focus {
+    text-align: center;
+}
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width:fit-content;
+}
+h1 {
+    text-align: center;
+    color: rgb(122, 63, 182);
+    text-shadow: 1px 1px 1px rgb(97, 30, 165);
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.row {
+    width:fit-content;
+    border-top: 20px;
+
+}
+#s1, #s2, #s3 {
+    text-align: center;
+    font-size: 35px;
+    border: 10px solid white;
+    background-color: rgb(184, 217, 250);
+    text-shadow: 1px 1px 1px white;
+
+}
+#p1 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 22px;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.navbar-toggler {
+    border: 1px solid rgb(97, 30, 165);
+    clear: both;
+}
